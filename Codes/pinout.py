@@ -14,3 +14,11 @@ coilsR = 	(
 
 NSTEPS = 200
 DELAY = 0.01
+timestep = 0.1
+
+P = 0.2
+I = 0
+D = 0
+
+adress_inclinometre = 0x00
+offset_inclinometre = 0

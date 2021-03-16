@@ -1,4 +1,5 @@
 classes de commande
 securite sur-tension
+implementation PID (premiere approche)
 schema wireing
 simulation sous gazebo (introduction to gazebo - advanced drone simulator)
