@@ -1,3 +1,6 @@
+import board
+import digitalio
+
 coilsL = 	(
 			digitalio.DigitalInOut(board.D19), #A1
 			digitalio.DigitalInOut(board.D26), #A2
