@@ -23,12 +23,6 @@ class moteur():
 		self.controleur = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
 		self.n_steps = n_steps
 		self.delay = delay
-	
-	# def spin(self, alpha) :
-	# 	direction = stepper.FORWARD if alpha > 0 else stepper.BACKWARD
-	# 	for step in range(int(alpha/360*self.n_steps)) :
-	# 		self.controleur.onestep(direction = direction)
-	# 		time.sleep(self.delay)
 
 	def spinDual(moteurL, moteurR, stepL, stepR) :
 		l, r = 0, 0
