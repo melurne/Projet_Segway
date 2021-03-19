@@ -15,6 +15,8 @@ coilsR = 	(
 			digitalio.DigitalInOut(board.D21), #B2
 			)
 
+fault_IRQ_pin = 
+
 NSTEPS = 200
 DELAY = 0.01
 timestep = 0.1
