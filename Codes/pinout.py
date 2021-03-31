@@ -15,7 +15,7 @@ coilsR = 	(
 			digitalio.DigitalInOut(board.D21), #B2
 			)
 
-fault_IRQ_pin = 
+fault_IRQ = [(26, "r", "Sur tension des moteurs")]
 
 NSTEPS = 200
 DELAY = 0.01

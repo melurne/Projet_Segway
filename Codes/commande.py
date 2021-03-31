@@ -5,7 +5,7 @@ moteurL = moteur(coils = coilsL, n_steps = NSTEPS, delay = DELAY)
 moteurR = moteur(coils = coilsR, n_steps = NSTEPS, delay = DELAY)
 inclinometre = inclinometre(smbus.SMBus(0), adress_inclinometre)
 
-segway = segway(moteurL, moteurR, inclinometre, timestep)
+segway = segway(moteurL, moteurR, inclinometre, timestep, fault_IRQ)
 
 segway.PID.setKp(P)
 segway.PID.setKi(I)
