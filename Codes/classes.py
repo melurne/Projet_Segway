@@ -43,7 +43,7 @@ class moteur():
 		return int(alpha/360*self.n_steps)
 
 class security_exception(Exception):
-    def __init__(self, message="Sur tension du controler\n"):
+    def __init__(self, message="Surtension du controler\n"):
         self.message = message
         super().__init__(self.message)
 
@@ -66,7 +66,7 @@ class segway():
 		self.timestep = timestep
 		self.PID = PID()
 		segway.PID.setSampleTime(timestep)
-                self.safeties = [sacurity_checks(test[0], GPIO_edge[test[1]], self[2]) for test in safety]
+        self.safeties = [sacurity_checks(test[0], GPIO_edge[test[1]], test[2]) for test in safety]
 
 	def stabilisation(self) :
 		self.PID.update(self.inclinometre.lecture())
