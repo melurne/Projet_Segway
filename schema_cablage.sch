@@ -18,8 +18,6 @@ device=CONNECTOR_20
 T 46700 50350 5 10 0 0 0 6 1
 footprint=SIP20N
 }
-G 36300 40456 3186 10244 270 0 0
-/home/maxence/Desktop/Projet_Segway/Datasheets/raspberry-pi-pinout.png
 C 51500 50800 1 180 0 ground.sym
 C 50200 46400 1 0 0 connector8-2.sym
 {
@@ -265,3 +263,26 @@ N 47900 44300 47900 43700 4
 N 47900 43700 50200 43700 4
 T 43000 47600 5 10 1 0 0 0 1
 Inclinometre
+T 50000 40700 8 10 1 1 0 0 1
+TITLE=Segway
+T 49900 40400 8 10 1 1 0 0 1
+file=schema_cablage
+T 50500 40100 8 10 1 1 0 0 1
+page=1
+T 51900 40100 8 10 1 1 0 0 1
+page=1
+T 53800 40400 8 10 1 1 0 0 1
+revision=1.0
+T 53900 40100 8 10 1 1 0 0 1
+author=NEUS Maxence
+G 34800 42200 1990 6400 270 0 0
+/home/maxence/Desktop/Projet_Segway/Datasheets/raspberry-pi-pinout.png
+G 30200 43400 2500 2242 0 0 0
+/home/maxence/Desktop/Projet_Segway/Datasheets/inclinometre.PNG
+G 37250 45600 2050 2900 90 0 0
+/home/maxence/Desktop/Projet_Segway/Datasheets/adafruit_products_pinout.jpg
+G 37250 42200 2050 2900 90 0 0
+/home/maxence/Desktop/Projet_Segway/Datasheets/adafruit_products_pinout.jpg
+B 32900 42200 3800 6400 3 10 1 0 -1 -1 0 -1 -1 -1 -1 -1
+T 32900 48800 8 10 1 1 0 0 1
+raspberry=raspberry pi zero
