@@ -2,12 +2,9 @@ import board
 import digitalio
 import smbus
 from adafruit_motor import stepper
-<<<<<<< HEAD
-=======
 #import PID.py
->>>>>>> 42a7e8a8879fc8ad1283f80be4df0b749623a5ba
 import RPi.GPIO as GPIO
-#import pid.py
+
 
 GPIO_edge = {"r": GPIO.RISING, "f": GPIO.FALLING}
 
