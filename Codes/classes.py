@@ -61,7 +61,7 @@ class security_checks():
         raise security_exception(self.exceptionMessage)
 
 class segway():
-    def __init__(self, moteurL, moteurR, inclinometre, timestep, safety):
+	def __init__(self, moteurL, moteurR, inclinometre, timestep, safety):
 		self.moteurL = moteurL
 		self.moteruR = moteruR
 		self.inclinometre = inclinometre
