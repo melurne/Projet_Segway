@@ -2,6 +2,10 @@ import board
 import digitalio
 import smbus
 from adafruit_motor import stepper
+<<<<<<< HEAD
+=======
+#import PID.py
+>>>>>>> 42a7e8a8879fc8ad1283f80be4df0b749623a5ba
 import RPi.GPIO as GPIO
 #import pid.py
 
@@ -20,12 +24,13 @@ class inclinometre():
 		return bear
 
 class moteur():
-    delay = 0.01
-    def __init__(self, coils, n_steps, delay):
-	for coil in coils:
-            coil.direction = digitalio.Direction.OUTPUT
-	    self.controleur = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
-	    self.n_steps = n_steps
+	delay = 0.01
+	def __init__(self, coils, n_steps, delay):
+		for coil in coils:
+			coil.direction = digitalio.Direction.OUTPUT
+		self.controleur = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+		self.n_steps = n_steps
+#>>>>>>> 42a7e8a8879fc8ad1283f80be4df0b749623a5ba
 #		self.delay = delay
 
 	@staticmethod
