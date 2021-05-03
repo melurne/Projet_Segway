@@ -2,7 +2,7 @@ import board
 import digitalio
 import smbus
 from adafruit_motor import stepper
-import PID.py
+#import PID.py
 import RPi.GPIO as GPIO
 
 GPIO_edge = {"r": GPIO.RISING, "f": GPIO.FALLING}
@@ -20,7 +20,7 @@ class inclinometre():
 		return bear
 
 class moteur():
-	delay = DELAY
+	delay = 0.01
 	def __init__(self, coils, n_steps, delay):
 		for coil in coils:
 			coil.direction = digitalio.Direction.OUTPUT
@@ -66,7 +66,7 @@ class segway():
 		self.moteruR = moteruR
 		self.inclinometre = inclinometre
 		self.timestep = timestep
-		self.PID = PID()
+#		self.PID = PID()
 		segway.PID.setSampleTime(timestep)
 		self.safeties = [security_checks(test[0], GPIO_edge[test[1]], test[2]) for test in safety]
 
