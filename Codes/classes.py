@@ -4,7 +4,7 @@ import smbus
 from adafruit_motor import stepper
 #import PID.py
 import RPi.GPIO as GPIO
-
+import time
 
 GPIO_edge = {"r": GPIO.RISING, "f": GPIO.FALLING}
 
@@ -21,30 +21,32 @@ class inclinometre():
 		return bear
 
 class moteur():
-	delay = 0.01
-	def __init__(self, coils, n_steps, delay):
-		for coil in coils:
-			coil.direction = digitalio.Direction.OUTPUT
-		self.controleur = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
-		self.n_steps = n_steps
-#>>>>>>> 42a7e8a8879fc8ad1283f80be4df0b749623a5ba
-#		self.delay = delay
+    delay = 0.001
+    def __init__(self, coils, n_steps, delay):
+        for coil in coils:
+            coil.direction = digitalio.Direction.OUTPUT
+        self.controleur = stepper.StepperMotor(coils[0], coils[1], coils[2], coils[3], microsteps=None)
+        self.n_steps = n_steps
 
-	@staticmethod
-	def spinDual(moteurL, moteurR, stepL, stepR) :
-		l, r = 0, 0
-		dirL = stepper.FORWARD if stepL > 0 else stepper.BACKWARD
-		dirR = stepper.FORWARD if stepR > 0 else stepper.BACKWARD
-		stepL, stepR = abs(stepL), abs(stepR)
-		while (l <= stepL) and (r <= stepR) :
-			if r <= stepR :
-				moteurR.controleur.onestep(direction = dirR)
-			if l <= stepL :
-				moteurR.controleur.onestep(direction = dirR)
-			time.sleep(moteur.delay)
+    @staticmethod
+    def spinDual(moteurL, moteurR, stepL, stepR) :
+        l, r = 0, 0
+        dirL = stepper.FORWARD if stepL > 0 else stepper.BACKWARD
+        dirR = stepper.FORWARD if stepR > 0 else stepper.BACKWARD
+        stepL, stepR = abs(stepL), abs(stepR)
+        while (l <= stepL) and (r <= stepR) :
+            if r <= stepR :
+                moteurR.controleur.onestep(direction = dirR)
+                r+=1
+            if l <= stepL :
+                moteurL.controleur.onestep(direction = dirL)
+                l+=1
+            #stepR = stepR-1 if stepR > 0 else 0
+            #stepL = stepL-1 if stepL > 0 else 0
+            time.sleep(moteur.delay)
 
-	def deg_to_steps(self, alpha) :
-		return int(alpha/360*self.n_steps)
+    def deg_to_steps(self, alpha) :
+        return int(alpha/360*self.n_steps)
 
 class security_exception(Exception):
     def __init__(self, message="Surtension du controler\n"):

@@ -10,7 +10,7 @@ coilsL = 	(
 
 coilsR = 	(
 			digitalio.DigitalInOut(board.D26), #A1
-			digitalio.DigitalInOut(board.D13), #A2
+			digitalio.DigitalInOut(board.D13), #A2 
 			digitalio.DigitalInOut(board.D5), #B1
 			digitalio.DigitalInOut(board.D6), #B2
 			)
@@ -18,7 +18,7 @@ coilsR = 	(
 fault_IRQ = [(18, "r", "Sur tension des moteurs")]
 
 NSTEPS = 200
-DELAY = 0.01
+DELAY = 0.0001
 timestep = 0.1
 
 P = 0.2
