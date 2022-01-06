@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2021.10.11)  6 JAN 2022 17:30
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2021.10.11)  6 JAN 2022 17:35
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -212,31 +212,6 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
 \Hy@SectionHShift=\skip49
 )
 Package hyperref Info: Option `colorlinks' set `true' on input line 15.
-
-(/app/texlive/texmf-dist/tex/latex/breakurl/breakurl.sty
-Package: breakurl 2013/04/10 v1.40 Breakable hyperref URLs
-
-(/app/texlive/texmf-dist/tex/latex/xkeyval/xkeyval.sty
-Package: xkeyval 2020/11/20 v2.8 package option processing (HA)
-
-(/app/texlive/texmf-dist/tex/generic/xkeyval/xkeyval.tex
-(/app/texlive/texmf-dist/tex/generic/xkeyval/xkvutils.tex
-\XKV@toks=\toks17
-\XKV@tempa@toks=\toks18
-)
-\XKV@depth=\count271
-File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
-))
-(/app/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
-Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
-)
-
-Package breakurl Warning: You are using breakurl while processing via pdflatex.
-
-(breakurl)                \burl will be just a synonym of \url.
-(breakurl)                 on input line 48.
-
-)
 \@indexfile=\write3
 \openout3 = `rapport.idx'.
 
@@ -244,7 +219,7 @@ Package breakurl Warning: You are using breakurl while processing via pdflatex.
 Writing index file rapport.idx
 (/app/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2021-03-18 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count272
+\l__color_backend_stack_int=\count271
 \l__pdf_internal_box=\box49
 )
 (./rapport.aux)
@@ -270,17 +245,17 @@ LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 21.
 LaTeX Font Info:    ... okay on input line 21.
  (/app/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count273
+\scratchcounter=\count272
 \scratchdimen=\dimen149
 \scratchbox=\box50
-\nofMPsegments=\count274
-\nofMParguments=\count275
-\everyMPshowfont=\toks19
-\MPscratchCnt=\count276
+\nofMPsegments=\count273
+\nofMParguments=\count274
+\everyMPshowfont=\toks17
+\MPscratchCnt=\count275
 \MPscratchDim=\dimen150
-\MPnumerator=\count277
-\makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks20
+\MPnumerator=\count276
+\makeMPintoPDFobject=\count277
+\everyMPtoPDFconversion=\toks18
 ) (/app/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -290,7 +265,7 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-\c@lstlisting=\count279
+\c@lstlisting=\count278
 
 (/app/texlive/texmf-dist/tex/latex/graphics/color.sty
 Package: color 2020/02/24 v1.2b Standard LaTeX Color (DPC)
@@ -311,7 +286,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/app/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count280
+\c@section@level=\count279
 )
 LaTeX Info: Redefining \ref on input line 21.
 LaTeX Info: Redefining \pageref on input line 21.
@@ -402,9 +377,8 @@ Underfull \hbox (badness 10000) in paragraph at lines 132--133
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 135--136
-[][][]$\OT1/cmtt/m/n/12 https : / / www . journaldugeek . com / 2020 / 06 / 24 
-/
+Underfull \hbox (badness 10000) in paragraph at lines 138--139
+[][]$\OT1/cmtt/m/n/12 https : / / www . journaldugeek . com / 2020 / 06 / 24 /
  []
 
 [7
@@ -413,20 +387,20 @@ Underfull \hbox (badness 10000) in paragraph at lines 135--136
 <../images//gant1.png, id=138, 513.92pt x 111.41624pt>
 File: ../images//gant1.png Graphic file (type png)
 <use ../images//gant1.png>
-Package pdftex.def Info: ../images//gant1.png  used on input line 147.
+Package pdftex.def Info: ../images//gant1.png  used on input line 150.
 (pdftex.def)             Requested size: 398.33858pt x 86.36029pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 147--148
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 150--151
  [][] 
  []
 
 <../images//gant2.png, id=139, 513.92pt x 112.42pt>
 File: ../images//gant2.png Graphic file (type png)
 <use ../images//gant2.png>
-Package pdftex.def Info: ../images//gant2.png  used on input line 155.
+Package pdftex.def Info: ../images//gant2.png  used on input line 158.
 (pdftex.def)             Requested size: 398.33858pt x 87.13832pt.
 
-Overfull \hbox (8.33858pt too wide) in paragraph at lines 155--156
+Overfull \hbox (8.33858pt too wide) in paragraph at lines 158--159
  [][] 
  []
 
@@ -434,76 +408,76 @@ Overfull \hbox (8.33858pt too wide) in paragraph at lines 155--156
 <../images//shema_bloc_1.png, id=150, 513.92pt x 199.74625pt>
 File: ../images//shema_bloc_1.png Graphic file (type png)
 <use ../images//shema_bloc_1.png>
-Package pdftex.def Info: ../images//shema_bloc_1.png  used on input line 187.
+Package pdftex.def Info: ../images//shema_bloc_1.png  used on input line 190.
 (pdftex.def)             Requested size: 369.88582pt x 143.76537pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 199--204
+Underfull \hbox (badness 10000) in paragraph at lines 202--207
 
  []
 
 <../images//tab1.png, id=151, 513.92pt x 159.59625pt>
 File: ../images//tab1.png Graphic file (type png)
 <use ../images//tab1.png>
-Package pdftex.def Info: ../images//tab1.png  used on input line 214.
+Package pdftex.def Info: ../images//tab1.png  used on input line 217.
 (pdftex.def)             Requested size: 390.0pt x 121.11418pt.
 <../images//tab2.png, id=152, 513.92pt x 483.8075pt>
 File: ../images//tab2.png Graphic file (type png)
 <use ../images//tab2.png>
-Package pdftex.def Info: ../images//tab2.png  used on input line 215.
+Package pdftex.def Info: ../images//tab2.png  used on input line 218.
 (pdftex.def)             Requested size: 390.0pt x 367.15123pt.
 [10 <../images//shema_bloc_1.png>] [11 <../images//tab1.png> <../images//tab2.p
 ng>]
 <../images//cp1.png, id=169, 513.92pt x 120.45pt>
 File: ../images//cp1.png Graphic file (type png)
 <use ../images//cp1.png>
-Package pdftex.def Info: ../images//cp1.png  used on input line 227.
+Package pdftex.def Info: ../images//cp1.png  used on input line 230.
 (pdftex.def)             Requested size: 227.62204pt x 53.3492pt.
 <../images//cp2.png, id=170, 513.92pt x 245.91875pt>
 File: ../images//cp2.png Graphic file (type png)
 <use ../images//cp2.png>
-Package pdftex.def Info: ../images//cp2.png  used on input line 228.
+Package pdftex.def Info: ../images//cp2.png  used on input line 231.
 (pdftex.def)             Requested size: 390.0pt x 186.6225pt.
 <../images//cp3.png, id=171, 513.92pt x 157.58875pt>
 File: ../images//cp3.png Graphic file (type png)
 <use ../images//cp3.png>
-Package pdftex.def Info: ../images//cp3.png  used on input line 229.
+Package pdftex.def Info: ../images//cp3.png  used on input line 232.
 (pdftex.def)             Requested size: 390.0pt x 119.59073pt.
 <../images//cp4.png, id=172, 513.92pt x 275.0275pt>
 File: ../images//cp4.png Graphic file (type png)
 <use ../images//cp4.png>
-Package pdftex.def Info: ../images//cp4.png  used on input line 230.
+Package pdftex.def Info: ../images//cp4.png  used on input line 233.
 (pdftex.def)             Requested size: 390.0pt x 208.71252pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 227--231
+Underfull \hbox (badness 10000) in paragraph at lines 230--234
 [][]
  []
 
 [12 <../images//cp1.png> <../images//cp2.png> <../images//cp3.png> <../images//
 cp4.png>]
-Overfull \hbox (86.9027pt too wide) detected at line 252
+Overfull \hbox (86.9027pt too wide) detected at line 255
 [] \OT1/cmr/m/n/12 = [] = [] = []
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--262
+Underfull \hbox (badness 10000) in paragraph at lines 262--265
 
  []
 
 <../images//shema_bloc_2.png, id=178, 513.92pt x 195.73125pt>
 File: ../images//shema_bloc_2.png Graphic file (type png)
 <use ../images//shema_bloc_2.png>
-Package pdftex.def Info: ../images//shema_bloc_2.png  used on input line 265.
+Package pdftex.def Info: ../images//shema_bloc_2.png  used on input line 268.
 (pdftex.def)             Requested size: 390.0pt x 148.53627pt.
 [13]
 <../images//matlab1.png, id=186, 513.92pt x 233.87375pt>
 File: ../images//matlab1.png Graphic file (type png)
 <use ../images//matlab1.png>
-Package pdftex.def Info: ../images//matlab1.png  used on input line 274.
+Package pdftex.def Info: ../images//matlab1.png  used on input line 277.
 (pdftex.def)             Requested size: 390.0pt x 177.4818pt.
 <../images//matlab2.png, id=187, 513.92pt x 231.86626pt>
 File: ../images//matlab2.png Graphic file (type png)
 <use ../images//matlab2.png>
-Package pdftex.def Info: ../images//matlab2.png  used on input line 283.
+Package pdftex.def Info: ../images//matlab2.png  used on input line 286.
 (pdftex.def)             Requested size: 390.0pt x 175.95836pt.
 
 
@@ -511,7 +485,7 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 File: ../images//matlab2.png Graphic file (type png)
 <use ../images//matlab2.png>
-Package pdftex.def Info: ../images//matlab2.png  used on input line 292.
+Package pdftex.def Info: ../images//matlab2.png  used on input line 295.
 (pdftex.def)             Requested size: 390.0pt x 175.95836pt.
 [14 <../images//shema_bloc_2.png> <../images//matlab1.png>] [15 <../images//mat
 lab2.png>] [16
@@ -520,20 +494,20 @@ lab2.png>] [16
 <../images//CAD_chasis.png, id=205, 1167.36125pt x 931.48pt>
 File: ../images//CAD_chasis.png Graphic file (type png)
 <use ../images//CAD_chasis.png>
-Package pdftex.def Info: ../images//CAD_chasis.png  used on input line 325.
+Package pdftex.def Info: ../images//CAD_chasis.png  used on input line 328.
 (pdftex.def)             Requested size: 341.43306pt x 272.43903pt.
  [17 <../images//CAD_chasis.png>] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 357--358
+Underfull \hbox (badness 10000) in paragraph at lines 360--361
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 359--361
+Underfull \hbox (badness 10000) in paragraph at lines 362--364
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 373--374
+Underfull \hbox (badness 10000) in paragraph at lines 376--377
 
  []
 
@@ -542,10 +516,10 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 (rerunfilecheck)             Checksum: 38E243ED8A37648A9AE023226BC547EA;2194.
  ) 
 Here is how much of TeX's memory you used:
- 9579 strings out of 478994
- 141512 string characters out of 5859688
- 444888 words of memory out of 5000000
- 26873 multiletter control sequences out of 15000+600000
+ 9344 strings out of 478994
+ 137900 string characters out of 5859688
+ 439969 words of memory out of 5000000
+ 26654 multiletter control sequences out of 15000+600000
  408190 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  71i,11n,74p,907b,348s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -560,10 +534,10 @@ dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></app/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on rapport.pdf (20 pages, 961322 bytes).
+Output written on rapport.pdf (20 pages, 962044 bytes).
 PDF statistics:
- 281 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
+ 282 PDF objects out of 1000 (max. 8388607)
+ 223 compressed objects within 3 object streams
  55 named destinations out of 1000 (max. 500000)
  216 words of extra memory for PDF output out of 10000 (max. 10000000)
 
