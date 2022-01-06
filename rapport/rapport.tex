@@ -233,7 +233,26 @@
 	
 	$$ ((DA-B^{2})p^{2}-DC)\chi(p) = 2(\frac{B}{R}+D)C_{m}(p) $$
 	
-	\includegraphics[width=16cm]{cp5.png}
+	Nous avons $ H_{1}(p) = \frac{\chi(p)}{C_{m}(p)}$ d’après le schéma bloc ci-dessous.\\
+	Nous en déduisons :
+	
+	$$ H_{1}(p)=\frac{2(\frac{B}{R}+D)C}{(DA+B^{2})p^{2}-DC} = \frac{\frac{2(\frac{B}{R}+D)C}{DC}}{\frac{DA-B^{2}}{DC}p^{2}-1} = \frac{2(\frac{B+DR}{RDC})}{\frac{DA-B^{2}}{DC}p^{2}-1}$$
+	Le schéma bloc se justifie alors en écrivant :
+	$$ \psi(p) = \chi(p) = K_{m}H_{1}(p)U(p) $$
+	
+	Le système d’entrée $ u(t)$ et de sortie $\psi(t)$ est instable car le dénominateur de la fonction de transfert possède un pôle réel positif.
+	
+	$$ p=\pm\sqrt{\frac{DC}{DA-B^{2}}} $$
+	avec 
+	
+	$$ \frac{DA-B^{2}}{DC}=0.06 > 0$$
+	
+	Nous déterminons les conditions sur $K_{v}$ et $K_{p}$ pour que le système soit stable cette fois-ci avec $\alpha = 0$ (Voir schéma ci-dessous)
+	
+	$$ \frac{\psi(p)}{W(p)} = \frac{\frac{K_{m}H_{1}(p)}{1+pK_{v}K_{m}H_{1}(p)}}{1+K_{p}\frac{K_{m}H_{1}(p)}{1+pK_{v}K_{m}H_{1}(p)}} = \frac{K_{m}H_{1}(p)}{1+pK_{v}K_{m}H_{1}(p)+K_{p}K_{m}H_{1}(p)} = \frac{K_{s}}{\frac{p^{2}}{\omega^{2}}+pK_{v}K_{s} + K_{p}K_{s}-1}$$
+	
+	C’est un système de degré 2 qui est stable si et seulement si les coefficients des puissances de p sont différents de 0 et sont de même signe.\\
+	Ceci implique : $K_{p} > \frac{1}{K_{s}} $ et $ K_{v}>0 $ pour que le système soit stable.
 	
 	\subsection{Conversion Numérique}
 	
@@ -277,7 +296,7 @@
 
 	\section{Conception de la maquette}
 	
-	\subsection{Concepte de base}
+	\subsection{Concept de base}
 	
 	Dans sa forme la plus simple, un segway est composé de trois éléments:
 	
