@@ -1,0 +1,23 @@
+\contentsline {paragraph}{Résumé}{1}{section*.1}%
+\contentsline {paragraph}{}{1}{section*.2}%
+\contentsline {paragraph}{Abstract}{1}{section*.3}%
+\contentsline {paragraph}{}{1}{section*.4}%
+\contentsline {section}{\numberline {1}Introduction}{3}{section.1}%
+\contentsline {paragraph}{Présentation du projet}{3}{section*.6}%
+\contentsline {paragraph}{}{3}{section*.7}%
+\contentsline {section}{\numberline {2}Cahier des charges}{4}{section.2}%
+\contentsline {section}{\numberline {3}Etat de l'art}{7}{section.3}%
+\contentsline {paragraph}{}{7}{section*.8}%
+\contentsline {paragraph}{}{7}{section*.9}%
+\contentsline {section}{\numberline {4}Organisation}{8}{section.4}%
+\contentsline {subsection}{\numberline {4.1}Planning}{8}{subsection.4.1}%
+\contentsline {subsection}{\numberline {4.2}Répartition des tâches}{9}{subsection.4.2}%
+\contentsline {section}{\numberline {5}Conception de la commande}{10}{section.5}%
+\contentsline {subsection}{\numberline {5.1}Modélisation du Segway}{10}{subsection.5.1}%
+\contentsline {subsection}{\numberline {5.2}Conversion Numérique}{13}{subsection.5.2}%
+\contentsline {section}{\numberline {6}Conception de la maquette}{16}{section.6}%
+\contentsline {subsection}{\numberline {6.1}Concepte de base}{16}{subsection.6.1}%
+\contentsline {subsection}{\numberline {6.2}Architecture matérielle}{16}{subsection.6.2}%
+\contentsline {subsection}{\numberline {6.3}Architecture logicielle}{17}{subsection.6.3}%
+\contentsline {subsection}{\numberline {6.4}Changements à apporter}{18}{subsection.6.4}%
+\contentsline {section}{\numberline {7}Conclusion}{19}{section.7}%

@@ -1,5 +1,27 @@
-classes de commande
-securite sur-tension
-implementation PID (premiere approche)
-schema wireing
-simulation sous gazebo (introduction to gazebo - advanced drone simulator)
+-- Conception du chasis
+	-> Impression 3D
+
+-- Recherche sur les algorithmes de commandes en numéique
+
+-- Convertion du modèle continu -> numérique (TZ)
+
+|	Une fois tout ça terminé
+|
+
+-- Integration sur la maquette
+
+-- Tests des algorithmes
+
+|	Si on a le temps
+|
+
+
+-- Gestion de la commande à distance
+
+-- Ajout d'un module camera
+	-> Communication wifi et gestion du flux video
+	
+
+
+
+
