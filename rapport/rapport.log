@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2021.10.11)  6 JAN 2022 17:27
+This is pdfTeX, Version 3.141592653-2.6-1.40.22 (TeX Live 2021 - Flatpak) (preloaded format=pdflatex 2021.10.11)  6 JAN 2022 17:30
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -484,55 +484,56 @@ Overfull \hbox (86.9027pt too wide) detected at line 252
 [] \OT1/cmr/m/n/12 = [] = [] = []
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 259--262
+
+ []
+
 <../images//shema_bloc_2.png, id=178, 513.92pt x 195.73125pt>
 File: ../images//shema_bloc_2.png Graphic file (type png)
 <use ../images//shema_bloc_2.png>
-Package pdftex.def Info: ../images//shema_bloc_2.png  used on input line 263.
+Package pdftex.def Info: ../images//shema_bloc_2.png  used on input line 265.
 (pdftex.def)             Requested size: 390.0pt x 148.53627pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<../images//matlab1.png, id=179, 513.92pt x 233.87375pt>
+[13]
+<../images//matlab1.png, id=186, 513.92pt x 233.87375pt>
 File: ../images//matlab1.png Graphic file (type png)
 <use ../images//matlab1.png>
-Package pdftex.def Info: ../images//matlab1.png  used on input line 272.
+Package pdftex.def Info: ../images//matlab1.png  used on input line 274.
 (pdftex.def)             Requested size: 390.0pt x 177.4818pt.
+<../images//matlab2.png, id=187, 513.92pt x 231.86626pt>
+File: ../images//matlab2.png Graphic file (type png)
+<use ../images//matlab2.png>
+Package pdftex.def Info: ../images//matlab2.png  used on input line 283.
+(pdftex.def)             Requested size: 390.0pt x 175.95836pt.
+
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<../images//matlab2.png, id=180, 513.92pt x 231.86626pt>
 File: ../images//matlab2.png Graphic file (type png)
 <use ../images//matlab2.png>
-Package pdftex.def Info: ../images//matlab2.png  used on input line 281.
+Package pdftex.def Info: ../images//matlab2.png  used on input line 292.
 (pdftex.def)             Requested size: 390.0pt x 175.95836pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-File: ../images//matlab2.png Graphic file (type png)
-<use ../images//matlab2.png>
-Package pdftex.def Info: ../images//matlab2.png  used on input line 290.
-(pdftex.def)             Requested size: 390.0pt x 175.95836pt.
-[13] [14 <../images//shema_bloc_2.png> <../images//matlab1.png>] [15 <../images
-//matlab2.png>] [16
+[14 <../images//shema_bloc_2.png> <../images//matlab1.png>] [15 <../images//mat
+lab2.png>] [16
 
 ]
 <../images//CAD_chasis.png, id=205, 1167.36125pt x 931.48pt>
 File: ../images//CAD_chasis.png Graphic file (type png)
 <use ../images//CAD_chasis.png>
-Package pdftex.def Info: ../images//CAD_chasis.png  used on input line 323.
+Package pdftex.def Info: ../images//CAD_chasis.png  used on input line 325.
 (pdftex.def)             Requested size: 341.43306pt x 272.43903pt.
  [17 <../images//CAD_chasis.png>] [18]
-Underfull \hbox (badness 10000) in paragraph at lines 355--356
+Underfull \hbox (badness 10000) in paragraph at lines 357--358
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 357--359
+Underfull \hbox (badness 10000) in paragraph at lines 359--361
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 371--372
+Underfull \hbox (badness 10000) in paragraph at lines 373--374
 
  []
 
@@ -543,7 +544,7 @@ Package rerunfilecheck Info: File `rapport.out' has not changed.
 Here is how much of TeX's memory you used:
  9579 strings out of 478994
  141512 string characters out of 5859688
- 446888 words of memory out of 5000000
+ 444888 words of memory out of 5000000
  26873 multiletter control sequences out of 15000+600000
  408190 words of font info for 43 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -559,7 +560,7 @@ dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></app/texlive/texmf-dist/fonts/typ
 e1/public/amsfonts/cm/cmsy10.pfb></app/texlive/texmf-dist/fonts/type1/public/am
 sfonts/cm/cmsy8.pfb></app/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmt
 t12.pfb></app/texlive/texmf-dist/fonts/type1/public/cm-super/sfrm1200.pfb>
-Output written on rapport.pdf (20 pages, 960899 bytes).
+Output written on rapport.pdf (20 pages, 961322 bytes).
 PDF statistics:
  281 PDF objects out of 1000 (max. 8388607)
  222 compressed objects within 3 object streams

@@ -256,7 +256,9 @@
 	
 	\subsection{Conversion Numérique}
 	
-	Dans cette partie nous avons ajouté un CAN dont le but de modéliser notre segway miniature
+	Dans cette partie nous avons ajouté un CAN dont le but de modéliser notre segway miniature.
+	En effet, l’inclinomètre que nous utilisons est équipé d’un convertisseur analogique-numérique, opération qu’il effectue avant d’envoyer les données au microprocesseur.
+	Afin de modéliser ce comportement et de s’assurer que l’échantillonnage n’a pas un grand impact sur le comportement de notre système, nous simulons celui-ci à l’aide d’un bloqueur d’ordre zéro en sortie du gyroscope.\\
 	
 	\begin{figure}[h]
 		\centering
